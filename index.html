@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Swify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+
+        <!-- Music -->
+        <audio id="myAudio" autoplay>
+            <source src="music.mp3" type="audio/mp3">
+            Przeglądarka nie obsługuje odtwarzacza audio.
+        </audio>
+
+        <div class="music-box">
+            <div class="music-label">
+                <div class="name-label">
+                    <b><p id="nazwaPiosenki">WHITE WIDOW - GORĄCY TEMAT</p></b>
+                </div>
+            </div>
+            <button class="icon-button" onclick="volumeDown()">
+                <i class="fa fa-volume-low"></i>
+            </button>
+            <button class="icon-button" onclick="pause()">
+                <i class="fa fa-play-pause"></i>
+            </button>
+            <button class="icon-button" onclick="volumeUp()">
+                <i class="fa fa-volume-high"></i>
+            </button>
+        </div>
+
+        <script src="script.js" defer></script>
+
+
+        <!-- Main window -->
+        <div class="portfolio-box">
+            <img src="img/logo.png" alt="Profile Image">
+            <div class="nickname-box">
+                <h1>Swify</h1>
+            </div>
+            <div class="social-links">
+                <div class="btn-style">
+                    <a href="https://discord.gg/tZSeNVsM" class="social-link" target="_blank">Lucky</a>
+                </div>
+                <div class="btn-style">
+                    <a href="https://www.youtube.com/channel/UCqBG1YpcWS_DnnDBLCrYhxg" class="social-link" target="_blank">Youtube</a>
+                </div>
+                <div class="btn-style">
+                    <a href="https://github.com/Duchnes" class="social-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Background boxes -->
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+
+    </div>
+</body>
+</html>
