@@ -31,13 +31,13 @@ function resetLabel() {
         if (audio.paused) {
             songName.innerHTML = "Odtwarzanie zatrzymane";
         } else {
-            songName.innerHTML = "WHITE WIDOW - GORĄCY TEMAT";
+            songName.innerHTML = "rvtrospekcja x ventisei - zilikami";
         }
     }, 5000);
 }
 
 audio.addEventListener("play", function() {
-    songName.innerHTML = "WHITE WIDOW - GORĄCY TEMAT";
+    songName.innerHTML = "rvtrospekcja x ventisei - zilikami";
     resetLabel();
 });
 
